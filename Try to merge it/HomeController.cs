@@ -6,5 +6,6 @@ namespace Repo1.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
+        var userModel = new UserModel();
     }
 }
